@@ -1,0 +1,27 @@
+name: app # Nombre del paquete de la aplicación.
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0' # Rango de versiones del SDK de Dart que se puede utilizar.
+
+dependencies:
+  flutter:
+    sdk: flutter # Dependencia del framework Flutter.
+  intl: ^0.17.0 # Dependencia de la biblioteca internacionalización.
+
+  cupertino_icons: ^1.0.2 # Dependencia de la biblioteca Cupertino Icons.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
